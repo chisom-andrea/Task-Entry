@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    height: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+.time {
+    padding-left: 50px;
+}
+.icons {
+    display: flex;
+    justify-content: right;
+    padding-right: 50px;
+}
+
+.icons i{
+    padding-right: 4px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.centre {
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first {
+    border: 0px solid grey;
+    border-radius: 20px;
+    padding:15px 30px;
+    padding-right: 110px;
+    background-color: white;
+    margin-bottom: 30px;
+    display: block;
+  text-align: start;
+}
+
+.second {
+    border:0px solid grey;
+    border-radius: 20px;
+    padding:15px 30px;
+    padding-right: 110px;
+    background-color: white;
+    margin-bottom: 40px;
+    display: block;
+    text-align: start;
+}
+
+.button button{
+    background-color: rgb(38, 228, 196);
+    padding: 17px 114px;
+    border: none;
+}
+.button button a{
+    color: #fff;
+    font-size: 1rem;
+    background-color: rgb(38, 228, 196);
+    text-decoration: none;
+}
+
+.last a {
+    text-decoration: none;
+    color: rgb(61, 129, 106);
+    font-weight: bolder;
+}
+
